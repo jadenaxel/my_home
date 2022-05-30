@@ -1,30 +1,19 @@
 <script>
-	export let name;
+    import Settings from "./Setting.svelte";
+    import Dashboard from "./Dashboard.svelte";
+    import Profile from "./Profile.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <Settings />
+    <Dashboard />
+    <Profile />
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+    main {
+        display: grid;
+        grid-template-columns: 122px 1fr 329px;
+        grid-template-areas: "settings main profile";
+    }
 </style>
