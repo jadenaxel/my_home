@@ -243,8 +243,8 @@ var app = (function () {
                 (s = g("div")), (i = g("img")), (n = v()), (c = g("div"));
                 for (let e = 0; e < p.length; e += 1) p[e].c();
                 f(i, "class", "settings-title svelte-1wspjot"),
-                    r(i.src, (l = "/my_homeimages/logo.svg")) ||
-                        f(i, "src", "/my_homeimages/logo.svg"),
+                    r(i.src, (l = "/my_home/images/logo.svg")) ||
+                        f(i, "src", "/my_home/images/logo.svg"),
                     f(i, "alt", "Logo"),
                     f(c, "class", "settings-link svelte-1wspjot"),
                     f(s, "class", "settings svelte-1wspjot");
@@ -279,10 +279,10 @@ var app = (function () {
     function R(e) {
         return [
             [
-                "/my_homeimages/icons/settings/chart.svg",
-                "/my_homeimages/icons/settings/union.svg",
-                "/my_homeimages/icons/settings/bookmark.svg",
-                "/my_homeimages/icons/settings/settings.svg",
+                "/my_home/images/icons/settings/chart.svg",
+                "/my_home/images/icons/settings/union.svg",
+                "/my_home/images/icons/settings/bookmark.svg",
+                "/my_home/images/icons/settings/settings.svg",
             ],
         ];
     }
