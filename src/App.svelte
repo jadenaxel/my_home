@@ -13,7 +13,13 @@
 <style>
     main {
         display: grid;
-        grid-template-columns: 122px 1fr 329px;
-        grid-template-areas: "settings main profile";
+        grid-template-columns: 1fr;
+        grid-template-areas: "main";
+    }
+    @media (min-width: 1120px) {
+        main {
+            grid-template-columns: 122px 1fr 329px;
+            grid-template-areas: "settings main profile";
+        }
     }
 </style>

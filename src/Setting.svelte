@@ -22,6 +22,7 @@
         background-color: #000;
         min-height: 100vh;
         padding: 25px 10px;
+        display: none;
     }
     .settings-title {
         cursor: pointer;
@@ -38,5 +39,10 @@
     }
     .settings-link-item:last-child {
         margin-bottom: 0;
+    }
+    @media (min-width: 1120px){
+        .settings{
+            display: block;
+        }
     }
 </style>
